@@ -5,5 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  site: 'https://diebarix.github.io',
+  base: '/web-soccer',
 });
