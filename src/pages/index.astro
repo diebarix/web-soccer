@@ -1,0 +1,40 @@
+---
+import About from "../components/About.astro";
+import FinalForm from "../components/FinalForm.astro";
+import More from "../components/More.astro";
+import Proyects from "../components/Proyects.astro";
+import Sponsors from "../components/Sponsors.astro";
+import Layout from "../layout/Layout.astro";
+---
+
+<Layout>
+	<main>
+		<Sponsors />
+		<More />
+		<About />
+		<Proyects />
+		<FinalForm />
+		<!--???? -->
+	</main>
+</Layout>
+
+<style>
+	:global(h1) {
+		margin: 2rem 0;
+		font-size: 2rem;
+		text-align: center;
+		margin-top: 10rem;
+		font-weight: bold;
+	}
+	:global(h2) {
+		text-align: center;
+		font-weight: bold;
+	}
+	:global(h4) {
+		font-weight: bold;
+	}
+	main {
+		max-width: 1440px;
+		margin: auto;
+	}
+</style>

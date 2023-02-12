@@ -1,0 +1,17 @@
+---
+import projects from "../config/proyects.json";
+---
+
+<section class="bg-slate-800">
+	<h1>Proyects</h1>
+	<div class="grid gap-7 p-10 md:grid-cols-3">
+		{
+			projects.map(project => (
+				<div class="my-20">
+					<h4 class="text-center font-bold text-2xl mb-10">{project.name}</h4>
+					<p class="text-center">{project.description}</p>
+				</div>
+			))
+		}
+	</div>
+</section>
