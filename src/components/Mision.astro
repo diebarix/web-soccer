@@ -1,0 +1,115 @@
+<section class="flex gap-4 p-20">
+	<div class="bg-black text-center p-8">
+		<h2>Undertaking/mission</h2>
+		<p class="mt-4">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis?
+		</p>
+		<img src="./images/football_team.svg" alt="" />
+	</div>
+	<div class="text-center p-8">
+		<h2>vision</h2>
+		<p class="mt-4">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis?
+		</p>
+		<div class="cont">
+			<div class="icon heart">
+				<svg
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+					width="180px"
+					><path
+						d="M14,2c1.82,0,3.53,0.5,5,1.35C16.01,5.08,14,8.3,14,12s2.01,6.92,5,8.65C17.53,21.5,15.82,22,14,22C8.48,22,4,17.52,4,12 S8.48,2,14,2z"
+					></path>
+					></svg
+				>
+			</div>
+		</div>
+	</div>
+	<div class="bg-black text-center p-8">
+		<h2>Values</h2>
+		<p class="mt-4">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis?
+		</p>
+		<!-- 		<span>
+			<img class="bg" src="./icons/diamond.svg" alt="" />
+		</span> -->
+		<div class="icon diamond">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				enable-background="new 0 0 24 24"
+				viewBox="0 0 24 24"
+				width="180px"
+				fill="#ffffff"
+				><g><rect fill="none" height="24" width="24"></rect></g><g
+					><g
+						><g
+							><polygon points="12.16,3 11.84,3 9.21,8.25 14.79,8.25"
+							></polygon></g
+						><g
+							><polygon points="16.46,8.25 21.62,8.25 19,3 13.84,3"
+							></polygon></g
+						><g><polygon points="21.38,9.75 12.75,9.75 12.75,20.1"></polygon></g
+						><g><polygon points="11.25,20.1 11.25,9.75 2.62,9.75"></polygon></g
+						><g><polygon points="7.54,8.25 10.16,3 5,3 2.38,8.25"></polygon></g
+						></g
+					></g
+				></svg
+			>
+		</div>
+	</div>
+</section>
+
+<style>
+	.cont .icon polygon {
+		fill: transparent;
+		stroke-width: 0.5;
+		stroke: #31e8ff;
+	}
+	.cont .diamond polygon {
+		stroke-dasharray: 123;
+		stroke-dashoffset: 160;
+	}
+	.cont .diamond:hover path {
+		animation: animate-heart 2s linear forwards;
+	}
+	.cont .icon path {
+		fill: transparent;
+		stroke-width: 0.5;
+		stroke: #31e8ff;
+	}
+	.cont .heart path {
+		stroke-dasharray: 63;
+		stroke-dashoffset: 0;
+	}
+	.cont .heart:hover path {
+		animation: animate-heart 2s linear forwards;
+	}
+	@keyframes animate-heart {
+		0% {
+			stroke-dashoffset: 0;
+		}
+		40% {
+			stroke-dashoffset: 63;
+		}
+		80% {
+			stroke-dashoffset: 126;
+			fill: transparent;
+		}
+		100% {
+			stroke-dashoffset: 126;
+			fill: #31e8ff;
+		}
+	}
+	.bg {
+		width: 300px;
+	}
+	div {
+		border-radius: 10px;
+	}
+	img {
+		background: red;
+		color: white;
+	}
+	p {
+	}
+</style>

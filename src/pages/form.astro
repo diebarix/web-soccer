@@ -1,0 +1,41 @@
+---
+import Layout from "../layout/Layout.astro";
+---
+
+<!--
+    ? Captura: Equipos, jugadores, arbitro y juegos que se juegan
+ -->
+<Layout>
+	<h1>Form of tournaments</h1>
+	<form method="post" class="flex flex-col gap-10 p-10" action="">
+		<p>Please, fill the next info for add your tournament in the database</p>
+		<input class="w-52" placeholder="Name of tournament" type="text" />
+		<input
+			class="w-52"
+			placeholder="how much teams play?"
+			type="number"
+			name="hola"
+			id=""
+		/>
+		<input class="w-52" placeholder="players for team" type="number" />
+
+		<div>
+			<label class="block" for="combo">Arbitro</label>
+			<select class="w-24" name="combo" id="">
+				<option value="1">Pepe</option>
+				<option value="2">Juan</option>
+				<option value="3">Choclo</option>
+			</select>
+		</div>
+		<button>Submit</button>
+	</form>
+</Layout>
+
+<style>
+	input,
+	textarea,
+	select {
+		background-color: slategray;
+		color: #fff;
+	}
+</style>
