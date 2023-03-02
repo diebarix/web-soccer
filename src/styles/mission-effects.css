@@ -1,0 +1,85 @@
+.hola {
+	position: relative;
+	overflow: hidden;
+}
+
+.hola span:nth-child(1) {
+	position: absolute;
+
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to right, transparent, #17f3fd);
+	animation: animate_one 2s linear infinite;
+}
+@keyframes animate_one {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+.hola span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(to bottom, transparent, #17f3fd);
+	animation: animate_two 2s linear infinite;
+	animation-delay: 1s;
+}
+@keyframes animate_two {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+.hola span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to left, transparent, #17f3fd);
+	animation: animate_three 2s linear infinite;
+}
+@keyframes animate_three {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+.hola span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(to top, transparent, #17f3fd);
+	animation: animate_four 2s linear infinite;
+	animation-delay: 1s;
+}
+@keyframes animate_four {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+.hola:hover {
+	filter: saturate(150%);
+	transform: scale(1.1);
+}
+.hola:hover span {
+	animation-play-state: paused;
+}
+.hola:hover .icon {
+	/* filter: drop-shadow(0 0 2px rgb(189, 15, 15)); */
+}

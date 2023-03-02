@@ -1,26 +1,32 @@
 [
 	{
 		"name": "proyect1",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	},
 	{
 		"name": "proyect2",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	},
 	{
 		"name": "proyect3",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	},
 	{
 		"name": "proyect4",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	},
 	{
 		"name": "proyect5",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	},
 	{
 		"name": "proyect6",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis"
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./icons/moon.svg"
 	}
 ]

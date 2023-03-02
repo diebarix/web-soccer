@@ -1,0 +1,33 @@
+---
+import members from "../config/members.json";
+---
+
+<section class="">
+	<h1>Members</h1>
+	<div class="flex mt-40 bg-slate-900 -z-20 gap-8 p-10 relative">
+		{
+			members.map(member => (
+				<div class="my-20 flex flex-col bg-slate-800 p-5 rounded-lg  relative">
+					<h4 class="text-center text-2xl mb-10">{member.name}</h4>
+					<p class="text-center">{member.description}</p>
+					<img
+						class="w-40 text-center absolute -z-10  "
+						src={member.image}
+						alt=""
+					/>
+				</div>
+			))
+		}
+	</div>
+</section>
+
+<style>
+	h1 {
+		margin-bottom: 500px;
+	}
+	div {
+	}
+	img {
+		bottom: 180px;
+	}
+</style>

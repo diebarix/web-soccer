@@ -1,4 +1,6 @@
-<header class="flex justify-center items-center bg-no-repeat bg-cover relative">
+<header
+	class="flex justify-center items-center bg-no-repeat bg-cover relative z-10 bg-black"
+>
 	<!--
         bg-[url('/images/estadio.jpeg')]
         <img
@@ -16,25 +18,41 @@
 			Solutions for your Company
 		</p>
 		<span>
-			<img class="w-72" src="./icons/logo.png" alt="" />
+			<img class="w-72 p-0 m-0" src="./icons/logo-2.svg" alt="" />
 		</span>
+
 		<!-- 		<a class="w-1/3" href="/web-soccer/form"
 			><button class="w-full">Join us</button></a
 		> -->
+		<!-- color-fondo-logo: #091839 -->
 	</div>
 </header>
 
 <style>
-	img {
-		border-radius: 100%;
-		border-color: red;
-		filter: brightness(50%);
-	}
 	span {
-		background: rgb(30, 18, 131);
-		border-radius: 100%;
-		filter: brightness(280%);
-		padding: 1rem;
+	}
+	img {
+		border-radius: 50%;
+		animation: pepe 3s linear infinite;
+	}
+	@keyframes pepe {
+		0% {
+			filter: drop-shadow(0 0 5px #31e8ff) drop-shadow(0 0 5px #31e8ff)
+				drop-shadow(0 0 5px #31e8ff);
+		}
+		25% {
+			filter: drop-shadow(0 0 5px #31e8ff) drop-shadow(0 0 5px #2c3892);
+		}
+		50% {
+			filter: drop-shadow(0 0 5px #2c3892) drop-shadow(0 0 5px #2c3892);
+		}
+		75% {
+			filter: drop-shadow(0 0 5px #2c3892) drop-shadow(0 0 5px #2c3892);
+		}
+		100% {
+			filter: drop-shadow(0 0 5px #2c3892) drop-shadow(0 0 5px #31e8ff)
+				drop-shadow(0 0 5px #31e8ff);
+		}
 	}
 	header {
 		height: 45rem;

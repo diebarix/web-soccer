@@ -2,14 +2,15 @@
 import projects from "../config/proyects.json";
 ---
 
-<section class="bg-slate-800">
-	<h1>Proyects</h1>
+<section class="bg-slate-900">
+	<h1>Photos</h1>
 	<div class="grid gap-7 p-10 md:grid-cols-3">
 		{
 			projects.map(project => (
 				<div class="my-20">
 					<h4 class="text-center text-2xl mb-10">{project.name}</h4>
 					<p class="text-center">{project.description}</p>
+					<img class="w-40 text-center" src={project.image} alt="" />
 				</div>
 			))
 		}

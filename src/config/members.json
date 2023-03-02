@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Mr Alexis",
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./images/p1.png"
+	},
+	{
+		"name": "San Yazfer",
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./images/p1.png"
+	},
+	{
+		"name": "Don Pablo",
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./images/p1.png"
+	},
+	{
+		"name": "Señor Luis",
+		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
+		"image": "./images/p1.png"
+	}
+]
