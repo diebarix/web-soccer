@@ -2,21 +2,25 @@
 	{
 		"name": "Mr Alexis",
 		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png"
+		"image": "./images/p1.png",
+    "rol": "CEO"
 	},
 	{
 		"name": "San Yazfer",
 		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png"
+		"image": "./images/p1.png",
+    "rol": "CTO"
 	},
 	{
 		"name": "Don Pablo",
 		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png"
+		"image": "./images/p1.png",
+    "rol": "CFO"
 	},
 	{
 		"name": "Señor Luis",
 		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png"
+		"image": "./images/p1.png",
+    "rol": "CISO"
 	}
 ]
