@@ -1,16 +1,239 @@
-<section>
+<section class="p-20">
 	<h1>Solution</h1>
-	<p class="text-center mb-10">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-		exercitationem eaque
-	</p>
-	<div class="bg-slate-900"></div>
+	<h2 class="text-center mb-10">
+		Se desarrollo una aplicacion para atacar a todos los problemas que tenian de
+		desorganizacion y comunicacion
+	</h2>
+	<div class="containers p-10">
+		<h4 class="text-center ">
+			La aplicacion cuenta con las siguiente caracteristicas
+		</h4>
+		<div class="timeline">
+			<div class="checkpoint">
+				<div>
+					<h2>Implementacion 1</h2>
+					<p>
+						La app contara con sistema de login (recibida por el administrador)
+					</p>
+				</div>
+			</div>
+			<div class="checkpoint">
+				<div>
+					<h2>Implementacion 2</h2>
+					<p>Contara con 4 menus principales:</p>
+					<ul class="m-auto leading-10">
+						<li class="list-disc ml-10">Salir de la app</li>
+						<li class="list-disc ml-10">Crear torneo</li>
+						<li class="list-disc ml-10">Ver datos</li>
+						<li class="list-disc ml-10">Editar torneo (modo de arbitro)</li>
+					</ul>
+				</div>
+			</div>
+			<div class="checkpoint">
+				<div>
+					<h2>Implementacion 3</h2>
+					<p>Opcion de "crear torneo" podra capturar los siguientes datos</p>
+					<ul class="m-auto">
+						<li class="list-disc ml-10">Equipos</li>
+						<li class="list-disc ml-10">Jugadores</li>
+						<li class="list-disc ml-10">Arbitros</li>
+						<li class="list-disc ml-10">Juego a celebrarse</li>
+						<li class="list-disc ml-10">tiempo y fecha del juego</li>
+					</ul>
+				</div>
+			</div>
+			<div class="checkpoint">
+				<div>
+					<h2>Implementacion 4</h2>
+					<p>Opcion de "Ver datos" mostrara lo siguiente</p>
+					<ul class="ml-5">
+						<li class="list-disc ml-10">
+							Nombre y equipo de los jugadores de acuerdo al numero de equipos
+							ingresados
+						</li>
+						<li class="list-disc ml-10">
+							Si el arbitro ingreso goles o tarjetas se mostrar los datos de
+							esas secciones
+						</li>
+						<li class="list-disc ml-10">
+							El numero de arbitros asi como sus nombres
+						</li>
+						<li class="list-disc ml-10">Juego a celebrarse</li>
+						<li class="list-disc ml-10">
+							Fecha en que iniciara el juego, asi como los dias que faltan para
+							que empieza
+						</li>
+						<li class="list-disc ml-10">
+							Pequeña descripcion de como se manejara los tiempos en el juego
+						</li>
+						<li class="list-disc ml-10">
+							Horario de inicio de juego, asi como los descansos y los
+							siguientes partidos a jugar
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="checkpoint">
+				<div>
+					<h2>Implementacion 5</h2>
+					<p>Opcion de "Editar (opcion del arbitro)" mostrara lo siguiente</p>
+					<ul class="list-disc m-automl-32">
+						<li class="ml-10">
+							Se abrira un submenu con las opciones de añadir goles y tarjetas
+						</li>
+						<li class="ml-10">
+							<b class="">
+								Al abrir cualquiera de las 2 opciones preguntara lo siguiente:
+							</b>
+							<ul class="list-disc mt-5">
+								<li class="ml-10">Selecciona un equipo</li>
+								<li class="ml-10">Selecciona un jugador</li>
+								<li class="ml-10">
+									Selecciona si es tarjeta roja o amarilla (en caso de las
+									tarjetas)
+								</li>
+								<li class="ml-10">
+									Selecciona la cantidad de goles (en caso de los goles)
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>
-	div {
-		width: 600px;
-		height: 600px;
-		margin: auto;
+	.timeline {
+		margin: 5em auto;
+		max-width: 34.15em;
+	}
+
+	p {
+		margin-bottom: 1em;
+		font-size: 1.1em;
+	}
+	li {
+		margin: 0.5em;
+	}
+
+	h4 {
+		color: #6dd5ed;
+		font-size: 1.1em;
+
+	}
+	div h2 {
+		margin-bottom: 0.5em;
+		font-size: 1.5em;
+	}
+
+	.checkpoint {
+		max-width: 34em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		position: relative;
+	}
+	.checkpoint div:hover {
+		background: #2193b0; /* fallback for old browsers */
+		background: -webkit-linear-gradient(
+			to right,
+			#6dd5ed,
+			#2193b0
+		); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(
+			to right,
+			#6dd5ed,
+			#2193b0
+		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: black;
+		cursor: pointer;
+	}
+
+	.checkpoint div {
+		border: 2px solid #888;
+		border-radius: 1em;
+		padding: 1.5em;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.checkpoint:nth-child(odd) {
+		border-left: 3px solid #31e8ff;
+		padding-left: 3em;
+		transform: translateX(17em);
+	}
+
+	.checkpoint:nth-child(even) {
+		border-right: 3px solid #31e8ff;
+		padding-right: 3em;
+		transform: translateX(-16.8em);
+	}
+
+	.checkpoint:nth-child(odd)::before,
+	.checkpoint:nth-child(even)::before {
+		content: "";
+		background: #31e8ff;
+		width: 3em;
+		height: 3px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.checkpoint:nth-child(odd)::before {
+		left: 0;
+	}
+	.checkpoint:nth-child(even)::before {
+		right: 0;
+	}
+
+	.checkpoint:nth-child(odd) div::before,
+	.checkpoint:nth-child(even) div::before {
+		content: "";
+		background: #fff;
+		box-shadow: 0 0 0.5em #31e8ff;
+		width: 0.8em;
+		height: 0.8em;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		border-radius: 50%;
+	}
+
+	.checkpoint:nth-child(odd) div::before {
+		left: -0.5em;
+	}
+
+	.checkpoint:nth-child(even) div::before {
+		right: -0.5em;
+	}
+
+	@media screen and (max-width: 1150px) {
+		.timeline {
+			width: 50vw;
+		}
+		.timeline .checkpoint {
+			width: 100%;
+			transform: none;
+			padding-left: 0;
+			padding-right: 0;
+			border: none;
+		}
+
+		.timeline .checkpoint::before {
+			width: 3px;
+			height: 4em;
+			top: -2em;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.timeline .checkpoint div::before {
+			top: -0.5em;
+			left: 50%;
+			transform: translateX(-50%);
+		}
 	}
 </style>

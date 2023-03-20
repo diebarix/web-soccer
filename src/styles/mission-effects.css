@@ -64,18 +64,18 @@
 	animation: animate_four 2s linear infinite;
 	animation-delay: 1s;
 }
-@keyframes animate_four {
+/* @keyframes animate_four {
 	0% {
 		transform: translateY(100%);
 	}
 	100% {
 		transform: translateY(-100%);
 	}
-}
+} */
 
 .hola:hover {
-	background: red;
-	width: 40rem;
+	background: #0f172a;
+	/* width: 40rem; */
 }
 .hola:hover span {
 	animation-play-state: paused;
