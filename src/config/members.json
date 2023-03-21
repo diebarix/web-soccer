@@ -1,26 +1,26 @@
 [
 	{
-		"name": "Mr Alexis",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png",
+		"name": "Alexis Baeza",
+		"description": "Jefe de la empresa",
+		"image": "./images/diego_3.png",
     "rol": "CEO"
 	},
 	{
-		"name": "San Yazfer",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png",
+		"name": "Yazfer Sebastian",
+		"description": "Jefe de tecnologia",
+		"image": "./images/yazfer.png",
     "rol": "CTO"
 	},
 	{
-		"name": "Don Pablo",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png",
+		"name": "Pablo Navarro",
+		"description": "Jefe de finanzas",
+		"image": "./images/pablo_2.png",
     "rol": "CFO"
 	},
 	{
-		"name": "Señor Luis",
-		"description": "elit. Delectus quisquam ratione dolorum eos repellendus eius accusamus dolores voluptas possimus quis",
-		"image": "./images/p1.png",
+		"name": "Luis Garfias",
+		"description": "Jefe de seguridad",
+		"image": "./images/luis_2.png",
     "rol": "CISO"
 	}
 ]
